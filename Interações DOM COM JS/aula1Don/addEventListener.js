@@ -16,6 +16,7 @@ for (let i = 0; i < boxes.length; i++) {
 
     box.innerHTML = nomes[i]
     box.style.color='red'
+    // o addEventListener atrela o evento('click) a uma ação(função)
     box.addEventListener('click', mudaBackgound)
     //(i % 2 === 0) valida se o índice é par
     if( i % 2 === 0){
