@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.imgText{
+    display: flex;
+
+}
+.vertor{
+    width: 33px;
+    height: 25px;
+}
+input{
+    width: 559px;
+    height: 60px;
+    background: #e8e4e4;
+    border-radius: 8px;
+    border: none;
+
+}
+.iconCarrinho{
+    width: 20px;
+    height: 15px;
+}
+ nav{
+    display: flex;
+ }

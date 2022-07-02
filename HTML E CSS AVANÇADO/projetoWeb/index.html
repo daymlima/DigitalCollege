@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <header class="container">
+        
+        <div class="topBar">
+           <div class="logo-nome">
+            <img class="vetor" src="img/vetor.png" alt="" srcset="">
+            <h1>Digital Store</h1>
+            </div>
+            
+            <input type="search" placeholder="Pesquisar produto">
+            <a class="register-link" href="http://">Cadastre-se</a>
+            <a class="login" href="http://">Entrar</a>
+            <img class="iconCarrinho" src="img/carrinho.png" alt="" srcset="">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li> <a class="active" href="#">Home</a> </li>
+                <li> <a href="#">Produtos</a> </li>
+                <li> <a href="#">Categoria</a> </li>
+                <li> <a href="#">Meus pedidos</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .topBar{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .topBar h1{
+            color: #c21d70;
+        }
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+            padding-left: 0;
+          
+        }
+        .main-nav ul li{
+            margin-right: 32px;
+        }
+        .iconCarrinho{
+        width: 20px;
+        height: 15px;
+        }
+        .main-nav ul li a{
+            text-decoration: none;
+        }
+        .main-nav ul li a.active{
+            color: #c21d70;
+            border-bottom: 2px solid #c21d70;
+
+        }
+        .logo-nome{
+            display: flex;
+            align-items: center;
+        }
+        .logo-nome h1 {
+            
+            font-size: 36.4px;
+            margin-left: 8px;
+        }
+
+        .topBar input{
+            width: 559px;
+
+        }
+       .topBar .login{
+        text-align: center;
+        line-height: 40px;
+        background-color: #c21d70;
+        border-radius: 8px;
+        color: white;
+        width: 114px;
+        height: 40px;
+        text-decoration: none;
+        
+       }
+    </style>
+</body>
+</html>
