@@ -10,7 +10,8 @@
 
 //alan.indexOf("x") -> O indexOf vai procurar em uma string e mostrar no indice de onde ela etá = -1 (o x não existe no nome)
 //let a = 'alabama'.split('a') -> A split vai retirar o que vc selecionou e retornar um array de strings = ["","l","b","m",""]
-
+//"alabana".replace('a','i') -> subistitui o promeiro 'a' por 'i' = 'ilababa'
+//"alabana".replaceAll('a','i') -> substitui todos os 'a' por 'i' = 'ilibimi'
 let nome = "Dayane Mendonça"
 let firstIncitinal = nome[0]
 let secondIndex = nome.indexOf(' ') + 1
